@@ -1,0 +1,938 @@
+GIT
+  remote: git://github.com/finnlabs/awesome_nested_set.git
+  revision: 7bd473e845e2f17f5287e8b7534bd88d4bbbf7d6
+  branch: v2.1.6-rails4
+  specs:
+    awesome_nested_set (2.1.6)
+      activerecord (>= 3.0.0)
+
+GIT
+  remote: git://github.com/goodwill/capybara-select2.git
+  revision: 585192e4bb0db8d52e761ab68f08c17294806447
+  specs:
+    capybara-select2 (1.0.1)
+      capybara
+      rspec
+
+GIT
+  remote: git://github.com/oliverguenther/omniauth.git
+  revision: 8385bc0da47e4fc4f4a256c97725bcf8215d13c2
+  specs:
+    omniauth (1.3.1)
+      hashie (>= 1.2, < 4)
+      rack (>= 1.0, < 3)
+
+GIT
+  remote: git://github.com/omniauth/omniauth-saml.git
+  revision: 146e46987bccd17343f96bb8b408fb1c8c84ec8d
+  specs:
+    omniauth-saml (1.5.0)
+      omniauth (~> 1.3)
+      ruby-saml (~> 1.1, >= 1.1.1)
+
+GIT
+  remote: git://github.com/opf/rails-angular-xss.git
+  revision: 13f8443cc3e1944743cba578685904b826515177
+  specs:
+    rails-angular-xss (0.1.0)
+      rails (>= 4.2.0, < 5.0)
+
+GIT
+  remote: git://github.com/why-el/svg-graph.git
+  revision: e79abffa66639ab203d099250c5d2656a4ebf917
+  branch: silence-class-access-warning
+  specs:
+    svg-graph (1.0.2)
+
+GIT
+  remote: https://github.com/finnlabs/omniauth-openid-connect.git
+  revision: c3bce4c9e9ac5412b36b00f80a44e3f1f7817222
+  branch: dev
+  specs:
+    omniauth-openid-connect (0.2.0)
+      addressable (~> 2.3)
+      omniauth (~> 1.1)
+      openid_connect (~> 0.8.0)
+
+GIT
+  remote: https://github.com/finnlabs/omniauth-openid_connect-providers.git
+  revision: 86f3670e127e6f4c14091e4f74f2418bd1ed63c4
+  branch: dev
+  specs:
+    omniauth-openid_connect-providers (0.1.0)
+      omniauth-openid-connect (>= 0.2.0)
+
+GIT
+  remote: https://github.com/finnlabs/openproject-auth_saml
+  revision: 97212abb83781aa7891d09b9fc7ab9209382d500
+  branch: dev
+  specs:
+    openproject-auth_saml (0.1.0)
+      omniauth-saml (~> 1.4)
+
+GIT
+  remote: https://github.com/finnlabs/rack-protection.git
+  revision: 5a7d1bd2f05ca75faf7909c8cc978732a0080898
+  ref: 5a7d1bd
+  specs:
+    rack-protection (1.5.2)
+      rack
+
+GIT
+  remote: https://github.com/finnlabs/rspec-example_disabler.git
+  revision: deb9c38e3f4e3688724583ac1ff58e1ae8aba409
+  specs:
+    rspec-example_disabler (0.0.1)
+
+GIT
+  remote: https://github.com/finnlabs/transactional_lock.git
+  revision: 6948b1d446db0da5645e68ffeeddca1c4944c3bc
+  branch: master
+  specs:
+    transactional_lock (0.1.0)
+      activerecord (>= 4.0)
+
+GIT
+  remote: https://github.com/opf/openproject-translations.git
+  revision: c8ab7018e72917e9a4a6bae779064635ad646313
+  branch: stable/5
+  specs:
+    openproject-translations (5.0.20)
+      crowdin-api (~> 0.4.0)
+      mixlib-shellout (~> 2.1.0)
+      rails (~> 4.2.3)
+      rubyzip
+
+GIT
+  remote: https://github.com/rails/prototype-rails.git
+  revision: 0fed929ff48c10c3b978edd3baa983a81f404dbf
+  branch: 4.2
+  specs:
+    prototype-rails (4.0.0)
+      rails (~> 4.0)
+
+GIT
+  remote: https://github.com/rails/prototype_legacy_helper.git
+  revision: a2cd95c3e3c1a4f7a9566efdab5ce59c886cb05f
+  specs:
+    prototype_legacy_helper (0.0.0)
+
+GIT
+  remote: https://github.com/rspec/rspec-activemodel-mocks
+  revision: 947a171de990f3056c2ad8b58922298339bc123e
+  specs:
+    rspec-activemodel-mocks (1.0.2)
+      activemodel (>= 3.0)
+      activesupport (>= 3.0)
+      rspec-mocks (>= 2.99, < 4.0)
+
+PATH
+  remote: vendored-plugins/openproject-announcements
+  specs:
+    openproject-announcements (5.0.20)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-auth_plugins
+  specs:
+    openproject-auth_plugins (5.0.20)
+      omniauth (~> 1.0)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-backlogs
+  specs:
+    openproject-backlogs (5.0.20)
+      acts_as_silent_list (~> 2.0.0)
+      openproject-pdf_export
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-costs
+  specs:
+    openproject-costs (5.0.20)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-documents
+  specs:
+    openproject-documents (5.0.20)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-github_integration
+  specs:
+    openproject-github_integration (5.0.20)
+      openproject-webhooks (~> 5.0.1)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-global_roles
+  specs:
+    openproject-global_roles (5.0.20)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-help_link
+  specs:
+    openproject-help_link (5.0.20)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-local_avatars
+  specs:
+    openproject-local_avatars (5.0.20)
+      rails (~> 4.2.4)
+      rmagick (~> 2.15.4)
+
+PATH
+  remote: vendored-plugins/openproject-meeting
+  specs:
+    openproject-meeting (5.0.20)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-my_project_page
+  specs:
+    openproject-my_project_page (5.0.20)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-openid_connect
+  specs:
+    openproject-openid_connect (5.0.20)
+      lobby_boy (~> 0.1)
+      omniauth-openid_connect-providers (~> 0.1)
+      openproject-auth_plugins (~> 5.0.1)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-pdf_export
+  specs:
+    openproject-pdf_export (5.0.20)
+      prawn (~> 2.1.0)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-reporting
+  specs:
+    openproject-reporting (5.0.20)
+      openproject-costs (>= 5.0.1)
+      rails (~> 4.2.4)
+      reporting_engine (>= 1.1.0)
+
+PATH
+  remote: vendored-plugins/openproject-themes-dark
+  specs:
+    openproject-themes-dark (5.0.20)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-webhooks
+  specs:
+    openproject-webhooks (5.0.20)
+      rails (~> 4.2.4)
+
+PATH
+  remote: vendored-plugins/openproject-xls_export
+  specs:
+    openproject-xls_export (5.0.20)
+      rails (~> 4.2.4)
+      spreadsheet (~> 0.8.9)
+
+PATH
+  remote: vendored-plugins/reporting_engine
+  specs:
+    reporting_engine (5.0.20)
+      json
+      rails (~> 4.2.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    Ascii85 (1.0.2)
+    actionmailer (4.2.7.1)
+      actionpack (= 4.2.7.1)
+      actionview (= 4.2.7.1)
+      activejob (= 4.2.7.1)
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+    actionpack (4.2.7.1)
+      actionview (= 4.2.7.1)
+      activesupport (= 4.2.7.1)
+      rack (~> 1.6)
+      rack-test (~> 0.6.2)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionpack-action_caching (1.1.1)
+      actionpack (>= 4.0.0, < 5.0)
+    actionpack-xml_parser (1.0.2)
+      actionpack (>= 4.0.0, < 5)
+    actionview (4.2.7.1)
+      activesupport (= 4.2.7.1)
+      builder (~> 3.1)
+      erubis (~> 2.7.0)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    activejob (4.2.7.1)
+      activesupport (= 4.2.7.1)
+      globalid (>= 0.3.0)
+    activemodel (4.2.7.1)
+      activesupport (= 4.2.7.1)
+      builder (~> 3.1)
+    activerecord (4.2.7.1)
+      activemodel (= 4.2.7.1)
+      activesupport (= 4.2.7.1)
+      arel (~> 6.0)
+    activerecord-session_store (0.1.1)
+      actionpack (>= 4.0.0, < 5)
+      activerecord (>= 4.0.0, < 5)
+      railties (>= 4.0.0, < 5)
+    activerecord-tableless (1.3.4)
+      activerecord (>= 2.3.0)
+    activesupport (4.2.7.1)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    acts_as_list (0.7.2)
+      activerecord (>= 3.0)
+    acts_as_silent_list (2.0.0)
+    addressable (2.3.8)
+    afm (0.2.2)
+    airbrake (4.1.0)
+      builder
+      multi_json
+    arel (6.0.3)
+    ast (2.0.0)
+    astrolabe (1.3.0)
+      parser (>= 2.2.0.pre.3, < 3.0)
+    attr_required (1.0.1)
+    autoprefixer-rails (5.1.11)
+      execjs
+      json
+    awesome_print (1.6.1)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    bindata (2.2.0)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    bourbon (4.2.3)
+      sass (~> 3.4)
+      thor
+    builder (3.2.2)
+    byebug (8.2.1)
+    capybara (2.4.4)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    capybara-ng (0.2.1)
+      awesome_print (>= 1.2.0)
+    capybara-screenshot (1.0.9)
+      capybara (>= 1.0, < 3)
+      launchy
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cliver (0.3.2)
+    cocaine (0.5.7)
+      climate_control (>= 0.0.3, < 1.0)
+    codecov (0.1.4)
+      json
+      simplecov
+      url
+    coderay (1.1.0)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    color-tools (1.3.0)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
+    crowdin-api (0.4.1)
+      rest-client (~> 1.8)
+    cucumber (1.3.19)
+      builder (>= 2.1.2)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 2.12)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-rails (1.4.2)
+      capybara (>= 1.1.2, < 3)
+      cucumber (>= 1.3.8, < 2)
+      mime-types (>= 1.16, < 3)
+      nokogiri (~> 1.5)
+      rails (>= 3, < 5)
+    daemons (1.2.2)
+    dalli (2.7.6)
+    database_cleaner (1.4.1)
+    date_validator (0.7.1)
+      activemodel
+    debug_inspector (0.0.2)
+    delayed_job (4.0.6)
+      activesupport (>= 3.0, < 5.0)
+    delayed_job_active_record (4.0.3)
+      activerecord (>= 3.0, < 5.0)
+      delayed_job (>= 3.0, < 4.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    diff-lcs (1.2.5)
+    disposable (0.0.9)
+      representable (~> 2.0)
+      uber
+    domain_name (0.5.20160615)
+      unf (>= 0.0.5, < 1.0.0)
+    equalizer (0.0.11)
+    equivalent-xml (0.5.1)
+      nokogiri (>= 1.4.3)
+    erubis (2.7.0)
+    eventmachine (1.0.7)
+    excon (0.45.3)
+    execjs (2.4.0)
+    factory_girl (4.5.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.5.0)
+      factory_girl (~> 4.5.0)
+      railties (>= 3.0.0)
+    faker (1.4.3)
+      i18n (~> 0.5)
+    ffi (1.9.10)
+    fog (1.23.0)
+      fog-brightbox
+      fog-core (~> 1.23)
+      fog-json
+      fog-softlayer
+      ipaddress (~> 0.5)
+      nokogiri (~> 1.5, >= 1.5.11)
+    fog-brightbox (0.7.1)
+      fog-core (~> 1.22)
+      fog-json
+      inflecto (~> 0.0.2)
+    fog-core (1.30.0)
+      builder
+      excon (~> 0.45)
+      formatador (~> 0.2)
+      mime-types
+      net-scp (~> 1.1)
+      net-ssh (>= 2.1.3)
+    fog-json (1.0.1)
+      fog-core (~> 1.0)
+      multi_json (~> 1.0)
+    fog-softlayer (0.4.6)
+      fog-core
+      fog-json
+    formatador (0.2.5)
+    friendly_id (5.1.0)
+      activerecord (>= 4.0.0)
+    gherkin (2.12.2)
+      multi_json (~> 1.3)
+    globalid (0.3.7)
+      activesupport (>= 4.1.0)
+    globalize (5.0.1)
+      activemodel (>= 4.2.0, < 4.3)
+      activerecord (>= 4.2.0, < 4.3)
+    gon (4.1.1)
+      actionpack (>= 2.3.0)
+      json
+    grape (0.10.1)
+      activesupport
+      builder
+      hashie (>= 2.1.0)
+      multi_json (>= 1.3.2)
+      multi_xml (>= 0.5.2)
+      rack (>= 1.3.0)
+      rack-accept
+      rack-mount
+      virtus (>= 1.0.0)
+    gravatar_image_tag (1.2.0)
+    hashery (2.1.2)
+    hashie (3.4.3)
+    health_check (1.5.1)
+      rails (>= 2.3.0)
+    hike (1.2.3)
+    htmldiff (0.0.1)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    httpclient (2.7.1)
+    i18n (0.7.0)
+    ice_nine (0.11.1)
+    inflecto (0.0.2)
+    interception (0.5)
+    ipaddress (0.8.0)
+    iso8601 (0.8.6)
+    json (1.8.3)
+    json-jwt (1.5.2)
+      activesupport
+      bindata
+      multi_json (>= 1.3)
+      securecompare
+      url_safe_base64
+    json_spec (1.1.4)
+      multi_json (~> 1.0)
+      rspec (>= 2.0, < 4.0)
+    kgio (2.9.3)
+    launchy (2.3.0)
+      addressable (~> 2.3)
+    letter_opener (1.3.0)
+      launchy (~> 2.2)
+    lobby_boy (0.1.2)
+      omniauth (~> 1.1)
+      omniauth-openid-connect (>= 0.2)
+      rails (>= 3.2.21)
+    loofah (2.0.3)
+      nokogiri (>= 1.5.9)
+    mail (2.6.4)
+      mime-types (>= 1.16, < 4)
+    method_source (0.8.2)
+    mime-types (2.99.2)
+    mini_portile2 (2.1.0)
+    minitest (5.9.0)
+    mixlib-shellout (2.1.0)
+    multi_json (1.11.3)
+    multi_test (0.1.2)
+    multi_xml (0.5.5)
+    mysql2 (0.3.20)
+    net-ldap (0.8.0)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.9.2)
+    netrc (0.11.0)
+    newrelic_rpm (3.14.1.311)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    non-stupid-digest-assets (1.0.4)
+    oj (2.11.5)
+    openid_connect (0.8.3)
+      activemodel
+      attr_required (>= 0.0.5)
+      json (>= 1.4.3)
+      json-jwt (>= 0.5.5)
+      rack-oauth2 (>= 1.0.0)
+      swd (>= 0.1.2)
+      tzinfo
+      validate_email
+      validate_url
+      webfinger (>= 0.0.2)
+    parallel (1.6.1)
+    parallel_tests (2.1.2)
+      parallel
+    parser (2.2.2.5)
+      ast (>= 1.1, < 3.0)
+    passenger (5.0.22)
+      rack
+      rake (>= 0.8.1)
+    pdf-core (0.6.1)
+    pdf-inspector (1.0.2)
+      pdf-reader (>= 0.9.0)
+    pdf-reader (1.4.0)
+      Ascii85 (~> 1.0.0)
+      afm (~> 0.2.1)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
+    pg (0.18.3)
+    pkg-config (1.1.7)
+    poltergeist (1.7.0)
+      capybara (~> 2.1)
+      cliver (~> 0.3.1)
+      multi_json (~> 1.0)
+      websocket-driver (>= 0.2.0)
+    powerpack (0.1.1)
+    prawn (2.1.0)
+      pdf-core (~> 0.6.1)
+      ttfunk (~> 1.4.0)
+    prawn-table (0.2.2)
+      prawn (>= 1.3.0, < 3.0.0)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.3.0)
+      byebug (~> 8.0)
+      pry (~> 0.10)
+    pry-doc (0.6.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
+    pry-rails (0.3.4)
+      pry (>= 0.9.10)
+    pry-rescue (1.4.2)
+      interception (>= 0.5)
+      pry
+    pry-stack_explorer (0.4.9.2)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
+    quiet_assets (1.1.0)
+      railties (>= 3.1, < 5.0)
+    rabl (0.9.3)
+      activesupport (>= 2.3.14)
+    rack (1.6.4)
+    rack-accept (0.4.5)
+      rack (>= 0.4)
+    rack-attack (4.2.0)
+      rack
+    rack-mount (0.8.3)
+      rack (>= 1.0.0)
+    rack-oauth2 (1.3.0)
+      activesupport (>= 2.3)
+      attr_required (>= 0.0.5)
+      httpclient (>= 2.4)
+      multi_json (>= 1.3.6)
+      rack (>= 1.1)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rack_session_access (0.1.1)
+      builder (>= 2.0.0)
+      rack (>= 1.0.0)
+    rails (4.2.7.1)
+      actionmailer (= 4.2.7.1)
+      actionpack (= 4.2.7.1)
+      actionview (= 4.2.7.1)
+      activejob (= 4.2.7.1)
+      activemodel (= 4.2.7.1)
+      activerecord (= 4.2.7.1)
+      activesupport (= 4.2.7.1)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 4.2.7.1)
+      sprockets-rails
+    rails-deprecated_sanitizer (1.0.3)
+      activesupport (>= 4.2.0.alpha)
+    rails-dom-testing (1.0.7)
+      activesupport (>= 4.2.0.beta, < 5.0)
+      nokogiri (~> 1.6.0)
+      rails-deprecated_sanitizer (>= 1.0.1)
+    rails-html-sanitizer (1.0.3)
+      loofah (~> 2.0)
+    rails-observers (0.1.2)
+      activemodel (~> 4.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_autolink (1.1.6)
+      rails (> 3.1)
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
+    railties (4.2.7.1)
+      actionpack (= 4.2.7.1)
+      activesupport (= 4.2.7.1)
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+    rainbow (2.0.0)
+    raindrops (0.13.0)
+    rake (11.2.2)
+    rb-readline (0.5.2)
+    rdoc (4.2.0)
+      json (~> 1.4)
+    reform (1.2.6)
+      activemodel
+      disposable (~> 0.0.5)
+      representable (~> 2.1.0)
+      uber (~> 0.0.11)
+    representable (2.1.8)
+      multi_json
+      nokogiri
+      uber (~> 0.0.7)
+    request_store (1.1.0)
+    responders (2.1.0)
+      railties (>= 4.2.0, < 5)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    rmagick (2.15.4)
+    roar (1.0.1)
+      representable (>= 2.0.1, <= 3.0.0)
+    rspec (3.3.0)
+      rspec-core (~> 3.3.0)
+      rspec-expectations (~> 3.3.0)
+      rspec-mocks (~> 3.3.0)
+    rspec-core (3.3.0)
+      rspec-support (~> 3.3.0)
+    rspec-expectations (3.3.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-legacy_formatters (1.0.0)
+      rspec-core (>= 3.0.0.beta2)
+      rspec-support (>= 3.0.0.beta2)
+    rspec-mocks (3.3.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-rails (3.3.1)
+      actionpack (>= 3.0, < 4.3)
+      activesupport (>= 3.0, < 4.3)
+      railties (>= 3.0, < 4.3)
+      rspec-core (~> 3.3.0)
+      rspec-expectations (~> 3.3.0)
+      rspec-mocks (~> 3.3.0)
+      rspec-support (~> 3.3.0)
+    rspec-support (3.3.0)
+    rubocop (0.32.1)
+      astrolabe (~> 1.3)
+      parser (>= 2.2.2.5, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.4)
+    ruby-duration (3.2.1)
+      activesupport (>= 3.0.0)
+      i18n
+      iso8601
+    ruby-ole (1.2.12)
+    ruby-prof (0.15.8)
+    ruby-progressbar (1.7.5)
+    ruby-rc4 (0.1.5)
+    ruby-saml (1.2.0)
+      nokogiri (>= 1.5.10)
+    rubytree (0.8.3)
+      json (>= 1.7.5)
+      structured_warnings (>= 0.1.3)
+    rubyzip (1.2.0)
+    safe_yaml (1.0.4)
+    sass (3.4.13)
+    sass-rails (5.0.3)
+      railties (>= 4.0.0, < 5.0)
+      sass (~> 3.1)
+      sprockets (>= 2.8, < 4.0)
+      sprockets-rails (>= 2.0, < 4.0)
+      tilt (~> 1.1)
+    securecompare (1.0.0)
+    selenium-webdriver (2.52.0)
+      childprocess (~> 0.5)
+      multi_json (~> 1.0)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    shoulda-context (1.2.1)
+    shoulda-matchers (2.8.0)
+      activesupport (>= 3.0.0)
+    simplecov (0.8.0.pre)
+      multi_json
+      simplecov-html (~> 0.7.1)
+    simplecov-html (0.7.1)
+    slop (3.6.0)
+    spreadsheet (0.8.9)
+      ruby-ole (>= 1.0)
+    sprockets (2.12.4)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-rails (2.3.3)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      sprockets (>= 2.8, < 4.0)
+    sqlite3 (1.3.11)
+    structured_warnings (0.2.0)
+    swd (1.0.1)
+      activesupport (>= 3)
+      attr_required (>= 0.0.5)
+      httpclient (>= 2.4)
+      i18n
+      json (>= 1.4.3)
+    syck (1.0.5)
+    sys-filesystem (1.1.4)
+      ffi
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
+    thor (0.19.1)
+    thread_safe (0.3.5)
+    tilt (1.4.1)
+    timecop (0.7.3)
+    ttfunk (1.4.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    tzinfo-data (1.2015.6)
+      tzinfo (>= 1.0.0)
+    uber (0.0.13)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
+    unicorn (4.9.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+    url (0.3.2)
+    url_safe_base64 (0.2.2)
+    validate_email (0.1.6)
+      activemodel (>= 3.0)
+      mail (>= 2.2.5)
+    validate_url (1.0.2)
+      activemodel (>= 3.0.0)
+      addressable
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+    warden (1.2.3)
+      rack (>= 1.0)
+    warden-basic_auth (0.2.1)
+      warden (~> 1.2)
+    webfinger (1.0.2)
+      activesupport
+      httpclient (>= 2.4)
+      multi_json
+    webmock (1.21.0)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+    websocket (1.2.2)
+    websocket-driver (0.6.2)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.2)
+    will_paginate (3.0.7)
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
+    yard (0.8.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  actionpack-action_caching
+  actionpack-xml_parser
+  activerecord-jdbcmysql-adapter
+  activerecord-jdbcpostgresql-adapter
+  activerecord-session_store
+  activerecord-tableless (~> 1.0)
+  acts_as_list (~> 0.7.2)
+  acts_as_silent_list (~> 2.0.0)
+  airbrake (~> 4.1.0)
+  autoprefixer-rails
+  awesome_nested_set!
+  bourbon (~> 4.2.0)
+  capybara (~> 2.4.4)
+  capybara-ng (~> 0.2.1)
+  capybara-screenshot (~> 1.0.4)
+  capybara-select2!
+  carrierwave (~> 0.10.0)
+  cocaine
+  codecov
+  coderay (~> 1.1.0)
+  color-tools (~> 1.3.0)
+  cucumber-rails (~> 1.4.2)
+  daemons
+  dalli (~> 2.7.6)
+  database_cleaner (~> 1.4.1)
+  date_validator (~> 0.7.1)
+  delayed_job_active_record (~> 4.0.2)
+  equivalent-xml (~> 0.5.1)
+  execjs (~> 2.4.0)
+  factory_girl (~> 4.5)
+  factory_girl_rails (~> 4.5)
+  faker
+  fog (~> 1.23.0)
+  friendly_id (~> 5.1.0)
+  globalize (~> 5.0.1)
+  gon (~> 4.0)
+  grape (~> 0.10.1)
+  gravatar_image_tag (~> 1.2.0)
+  health_check
+  htmldiff
+  jruby-openssl
+  json_spec
+  launchy (~> 2.3.0)
+  letter_opener
+  multi_json (~> 1.11.0)
+  mysql2 (~> 0.3.20)
+  net-ldap (~> 0.8.0)
+  newrelic_rpm
+  nokogiri (~> 1.6.8)
+  non-stupid-digest-assets
+  oj (~> 2.11.4)
+  omniauth!
+  omniauth-openid-connect!
+  omniauth-openid_connect-providers!
+  omniauth-saml!
+  openproject-announcements!
+  openproject-auth_plugins!
+  openproject-auth_saml!
+  openproject-backlogs!
+  openproject-costs!
+  openproject-documents!
+  openproject-github_integration!
+  openproject-global_roles!
+  openproject-help_link!
+  openproject-local_avatars!
+  openproject-meeting!
+  openproject-my_project_page!
+  openproject-openid_connect!
+  openproject-pdf_export!
+  openproject-reporting!
+  openproject-themes-dark!
+  openproject-translations!
+  openproject-webhooks!
+  openproject-xls_export!
+  parallel_tests (~> 2.1.2)
+  passenger
+  pdf-inspector (~> 1.0.0)
+  pg (~> 0.18.3)
+  poltergeist
+  prawn (~> 2.1)
+  prawn-table (~> 0.2.2)
+  prototype-rails!
+  prototype_legacy_helper (= 0.0.0)!
+  pry-byebug
+  pry-doc
+  pry-rails
+  pry-rescue
+  pry-stack_explorer
+  quiet_assets
+  rabl (= 0.9.3)
+  rack-attack
+  rack-protection!
+  rack-test (~> 0.6.2)
+  rack_session_access
+  rails (~> 4.2.7)
+  rails-angular-xss!
+  rails-observers
+  rails_12factor
+  rails_autolink (~> 1.1.6)
+  rb-readline (~> 0.5.1)
+  rdoc (>= 2.4.2)
+  reform (~> 1.2.6)
+  reporting_engine!
+  request_store (~> 1.1.0)
+  responders (~> 2.0)
+  roar (~> 1.0.0)
+  rspec (~> 3.3.0)
+  rspec-activemodel-mocks (~> 1.0.2)!
+  rspec-example_disabler!
+  rspec-legacy_formatters
+  rspec-rails (~> 3.3.0)
+  rubocop (~> 0.32)
+  ruby-duration (~> 3.2.0)
+  ruby-prof
+  ruby-progressbar
+  rubytree (~> 0.8.3)
+  sass (~> 3.4.12)
+  sass-rails (~> 5.0.3)
+  selenium-webdriver (~> 2.52.0)
+  shoulda-context (~> 1.2)
+  shoulda-matchers (~> 2.8)
+  simplecov (= 0.8.0.pre)
+  sprockets (~> 2.12.3)
+  sqlite3
+  svg-graph!
+  syck (~> 1.0.5)
+  sys-filesystem (~> 1.1.4)
+  thin
+  timecop (~> 0.7.1)
+  transactional_lock!
+  tzinfo-data
+  unicorn
+  warden (~> 1.2)
+  warden-basic_auth (~> 0.2.1)
+  webmock (~> 1.21.0)
+  will_paginate (~> 3.0)
+
+BUNDLED WITH
+   1.12.5
