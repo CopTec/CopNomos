@@ -7,7 +7,6 @@ Versión Official de openproject edición comunitaria tomada de:
 https://github.com/opf/openproject-ce/tree/stable/5
 
 
-La versión modifica
 
 [<img src="https://travis-ci.org/opf/openproject.svg?branch=dev" alt="Build Status" />](https://travis-ci.org/opf/openproject)
 [<img src="https://gemnasium.com/opf/openproject.png" alt="Dependency Status" />](https://gemnasium.com/opf/openproject)
