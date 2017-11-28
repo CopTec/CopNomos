@@ -2126,3 +2126,8 @@ en:
         start_date: "Start date cannot be set on parent work packages."
     resources:
       schema: 'Schema'
+
+  #Personalización 
+  personalization:
+    welcome:
+      right_block_title: Legal Support System
