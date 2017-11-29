@@ -2129,13 +2129,15 @@ en:
 
   #Personalización 
   personalization:
+    name_company: CopTec S.A.S
+    title_company: Página Oficial Empresa CopTec S.A.S
     welcome:
       right_block_title: Legal Support System
       right_block_content: System for the support of the study and analysis at the legal level in the management of the processes
         corresponding to the files subject to the procedure of coercive collection of the metropolitan area of ​​Barranquilla
         in relation to public service vehicles (Taxis).
       right_block_description_list: "General functionalities :"
-      right_block_list_1: Management and monitoring of activities and / or processes of legal analysis
+      right_block_list_1: Management and monitoring of activities and/or processes of legal analysis
       right_block_list_2: Management of documents referring to the files related to the payment collection process
-      right_block_list_3: Generation of reports concerning activities and / or processes
+      right_block_list_3: Generation of reports concerning activities and/or processes
 
