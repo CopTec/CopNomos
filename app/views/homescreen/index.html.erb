@@ -46,16 +46,13 @@ See doc/COPYRIGHT.rdoc for more details.
   </section>
 <% end %>
 
-<% if @homescreen[:links].any? %>
+
   <section class="homescreen--links">
-  <% @homescreen[:links].each do |link| %>
-    <% title = I18n.t(link[:label], scope: 'homescreen.links') %>
-    <a class="homescreen--links--item" href="<%= link[:url] %>" target="_blank" title="<%= title %>">
-      <span class="<%= link[:icon] %>"></span>
-      <%= title %>
+    <a class="homescreen--links--item" href="https://sites.google.com/view/coptec-sas/" target="_blank" title="<%= l('personalization.title_company') %>">
+      <span class="icon-assigned-to-me"></span>
+      <%= l('personalization.name_company') %>
     </a>
-  <% end %>
   </section>
-<% end %>
+
 
 <%= call_hook :homescreen_after_links %>
