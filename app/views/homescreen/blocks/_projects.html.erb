@@ -15,14 +15,4 @@
   </ul>
 <% end %>
 
-<div class="widget-box--blocks--buttons">
-  <% if User.current.allowed_to?(:add_project, nil, global: true) %>
-    <%= link_to new_project_path, class: 'button -alt-highlight' do %>
-      <i class="button--icon icon-add"></i>
-      <span class="button--text"><%= l(:label_project_new) %></span>
-    <% end %>
-  <% end %>
-  <%= link_to l(:label_project_view_all), projects_path,
-              class: 'button -highlight',
-              title: l(:label_project_view_all) %>
-</div>
+
