@@ -45,6 +45,17 @@ GIT
     svg-graph (1.0.2)
 
 GIT
+  remote: https://github.com/CopTec/CopNomos-translations.git
+  revision: 961c74f112256a087ca1b63e2d86b6bbc890bab3
+  branch: master
+  specs:
+    openproject-translations (5.0.20)
+      crowdin-api (~> 0.4.0)
+      mixlib-shellout (~> 2.1.0)
+      rails (~> 4.2.3)
+      rubyzip
+
+GIT
   remote: https://github.com/finnlabs/omniauth-openid-connect.git
   revision: c3bce4c9e9ac5412b36b00f80a44e3f1f7817222
   branch: dev
@@ -91,17 +102,6 @@ GIT
   specs:
     transactional_lock (0.1.0)
       activerecord (>= 4.0)
-
-GIT
-  remote: https://github.com/opf/openproject-translations.git
-  revision: c8ab7018e72917e9a4a6bae779064635ad646313
-  branch: stable/5
-  specs:
-    openproject-translations (5.0.20)
-      crowdin-api (~> 0.4.0)
-      mixlib-shellout (~> 2.1.0)
-      rails (~> 4.2.3)
-      rubyzip
 
 GIT
   remote: https://github.com/rails/prototype-rails.git
@@ -389,7 +389,7 @@ GEM
     disposable (0.0.9)
       representable (~> 2.0)
       uber
-    domain_name (0.5.20160615)
+    domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
     equalizer (0.0.11)
     equivalent-xml (0.5.1)
@@ -460,7 +460,7 @@ GEM
       rails (>= 2.3.0)
     hike (1.2.3)
     htmldiff (0.0.1)
-    http-cookie (1.0.2)
+    http-cookie (1.0.3)
       domain_name (~> 0.5)
     httpclient (2.7.1)
     i18n (0.7.0)
@@ -755,7 +755,7 @@ GEM
     uber (0.0.13)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.2)
+    unf_ext (0.0.7.4)
     unicorn (4.9.0)
       kgio (~> 2.6)
       rack
@@ -935,4 +935,4 @@ DEPENDENCIES
   will_paginate (~> 3.0)
 
 BUNDLED WITH
-   1.12.5
+   1.15.4

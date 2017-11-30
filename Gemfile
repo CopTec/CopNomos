@@ -253,7 +253,7 @@ platforms :jruby do
 end
 
 group :opf_plugins do
-  gem 'openproject-translations', git:'https://github.com/opf/openproject-translations.git', branch: 'stable/5'
+  gem 'openproject-translations', git:'https://github.com/CopTec/CopNomos-translations.git', branch: 'master'
 end
 
 # TODO: Make this group :optional when bundler v10.x
