@@ -2131,8 +2131,15 @@ en:
   personalization:
     name_company: CopTec S.A.S
     title_company: Página Oficial Empresa CopTec S.A.S
+    title_mission_company: MISSION
+    content_mission_company: Implement in its entirety the persuasive stage of the files susceptible to coercive collection, 
+     specifically to the public service vehicles (taxis) belonging to the Metropolitan Area of ​​Barranquilla, by means of a 
+     detailed legal study, in order to diagnose the bases and motives of the emergence of debt.
+    title_view_company: VIEW
+    content_view_company: Structure legal projects at regional and national level, tending to initiate a process of legal collection of the 
+     delinquent taxi portfolio in favor of the Metropolitan Area of ​​Barranquilla.
     welcome:
-      right_block_title: Legal Support System
+      right_block_title: LEGAL SUPPORT SYSTEM
       right_block_content: System for the support of the study and analysis at the legal level in the management of the processes
         corresponding to the files subject to the procedure of coercive collection of the metropolitan area of ​​Barranquilla
         in relation to public service vehicles (Taxis).
